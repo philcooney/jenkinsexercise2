@@ -19,8 +19,9 @@ pipeline{
 
                 steps{
 
-#                    sh '"Testing..."'
+                    sh 'echo "Testing..."'
                     sh 'pwd'
+		    sh 'touch deploy.sh'
                     sh 'touch testfile.txt'
                     sh 'ls -l'
 
